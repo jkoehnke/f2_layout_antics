@@ -1,0 +1,170 @@
+
+/*JK CSS*/
+
+/*.test {
+  background: rgba(255, 0, 0, .1);
+}*/
+
+body {
+  font-family: 'Droid Serif', serif;
+  color: #858585;
+  line-height: 30px;
+}
+
+p {
+  text-indent: 2.0em;
+  font-family: 'Droid Serif', serif;
+  line-height: 30px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:visited {
+  text-decoration: none;
+  color: inherit;
+}
+
+.masthead {
+  background: url(border.png) repeat-x bottom;
+  padding: 30px 0;
+  padding-bottom: 40px;
+  width: 960px;
+}
+
+.masthead__logo {
+  display: block;
+  float: left;
+  margin-right: 7px;
+}
+
+.masthead__logo--wrapper {
+  float: left;
+}
+
+.masthead__logo--delicious {
+  font-family: 'Yellowtail', cursive;;
+  font-size: 38px;
+  width: 100%;
+}
+
+.masthead__logo--best {
+  font-family: 'Abel', sans-serif;
+  font-size: 11px;
+  text-transform: uppercase;
+}
+
+.social-icons {
+  display: inline;
+  float: right;
+  margin: 0 auto;
+  padding-top: 12px;
+}
+
+.social-icons li {
+  display: inline-block;
+  list-style: none;
+  float: left;
+  margin-left: 2px;
+}
+
+.social-icons li:nth-child(7) {
+  margin-left: 10px;
+}
+
+.title {
+  font-family: 'Oswald', sans-serif;
+  font-size: 36px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  padding-top: 30px;
+  color: #313131;
+}
+
+.title__subtitle {
+  font-family: 'Oswald', sans-serif;
+  font-size: 14px;
+  text-transform: uppercase;
+}
+
+.title__subtitle--print {
+  text-align: right;
+  font-family: 'Oswald', sans-serif;
+  font-size: 14px;
+  text-transform: uppercase;
+  padding: 0;
+}
+
+.blog-photo {
+  width: 100%;
+  height: auto;
+}
+
+.instructions {
+  text-indent: 32px;
+  padding-top: 36px;
+}
+
+.instructions p {
+  padding-bottom: 40px;
+}
+
+.ingredients__recipe {
+  background: url(file:///Users/jkoehnke/Downloads/challenge/list-bg.png) no-repeat;
+}
+
+.ingredients__recipe ul {
+  list-style: none;
+}
+
+.author__photo {
+  float: left;
+  border-radius: 100%;
+  width: 70px;
+  margin-right: 20px;
+}
+
+.author {
+  background: url(border.png) repeat-x top;
+  display: block;
+  padding-top: 40px;
+}
+
+.author__text {
+  display: inline-block;
+  width: 600px;
+}
+
+.share__recipe {
+  display: inline-block;
+  padding: ;
+  background-color: #bb7056;
+  font-family: 'Abel';
+  font-size: 1.25rem;
+  color: white;
+  line-height: 3.5rem;
+  text-transform: uppercase;
+  text-align: center;
+  margin-top: 10px;
+}
+
+.footer {
+  border-top: 1px solid #eee;
+  text-align: center;
+  padding: 35px 0 60px 0;
+  font-size: 0.85rem;
+  line-height: 1.4rem;
+  color: #bbb;
+}
+
+.small-logo {
+  margin-top: -18px;
+  padding: 0 5px 0 5px;
+  border-top: 1px solid gray;
+}
