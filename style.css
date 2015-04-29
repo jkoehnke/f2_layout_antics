@@ -1,10 +1,4 @@
 
-/*JK CSS*/
-
-/*.test {
-  background: rgba(255, 0, 0, .1);
-}*/
-
 body {
   font-family: 'Droid Serif', serif;
   color: #858585;
@@ -143,7 +137,6 @@ a:visited {
 
 .share__recipe {
   display: inline-block;
-  padding: ;
   background-color: #bb7056;
   font-family: 'Abel';
   font-size: 1.25rem;
@@ -168,3 +161,7 @@ a:visited {
   padding: 0 5px 0 5px;
   border-top: 1px solid gray;
 }
+
+/*.test {
+  background: rgba(255, 0, 0, .1);
+}*/
