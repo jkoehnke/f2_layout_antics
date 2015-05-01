@@ -14,6 +14,7 @@ p {
 h1, h2, h3, h4, h5, h6 {
   margin: 0;
   padding: 0;
+  color: #313131;
 }
 
 a {
@@ -46,12 +47,14 @@ a:visited {
   font-family: 'Yellowtail', cursive;;
   font-size: 38px;
   width: 100%;
+  color: #313131;
 }
 
 .masthead__logo--best {
   font-family: 'Abel', sans-serif;
   font-size: 11px;
   text-transform: uppercase;
+  color: #313131;
 }
 
 .social-icons {
@@ -85,6 +88,7 @@ a:visited {
   font-family: 'Oswald', sans-serif;
   font-size: 14px;
   text-transform: uppercase;
+  color: #858585;
 }
 
 .title__subtitle--print {
@@ -110,11 +114,17 @@ a:visited {
 }
 
 .ingredients__recipe {
-  background: url(file:///Users/jkoehnke/Downloads/challenge/list-bg.png) no-repeat;
+  background: url(list-bg.png) no-repeat;
 }
 
 .ingredients__recipe ul {
   list-style: none;
+}
+
+.author {
+  background: url(border.png) repeat-x top;
+  display: block;
+  padding-top: 40px;
 }
 
 .author__photo {
@@ -124,15 +134,13 @@ a:visited {
   margin-right: 20px;
 }
 
-.author {
-  background: url(border.png) repeat-x top;
-  display: block;
-  padding-top: 40px;
-}
-
 .author__text {
   display: inline-block;
   width: 600px;
+}
+
+.author__bio {
+  color: #858585;
 }
 
 .share__recipe {
@@ -161,7 +169,3 @@ a:visited {
   padding: 0 5px 0 5px;
   border-top: 1px solid gray;
 }
-
-/*.test {
-  background: rgba(255, 0, 0, .1);
-}*/
