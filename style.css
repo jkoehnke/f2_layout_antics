@@ -27,7 +27,7 @@ a:visited {
 }
 
 .masthead {
-  background: url(border.png) repeat-x bottom;
+  background: url(Images/border.png) repeat-x bottom;
   padding: 30px 0;
   padding-bottom: 40px;
   width: 960px;
@@ -96,6 +96,7 @@ a:visited {
   font-family: 'Oswald', sans-serif;
   font-size: 14px;
   text-transform: uppercase;
+  color: #858585;
   padding: 0;
 }
 
@@ -114,7 +115,7 @@ a:visited {
 }
 
 .ingredients__recipe {
-  background: url(list-bg.png) no-repeat;
+  background: url(Images/list-bg.png) no-repeat;
 }
 
 .ingredients__recipe ul {
@@ -122,7 +123,7 @@ a:visited {
 }
 
 .author {
-  background: url(border.png) repeat-x top;
+  background: url(Images/border.png) repeat-x top;
   display: block;
   padding-top: 40px;
 }
@@ -153,6 +154,8 @@ a:visited {
   text-transform: uppercase;
   text-align: center;
   margin-top: 10px;
+  padding-left: 25px;
+  padding-right: 25px;
 }
 
 .footer {
@@ -167,5 +170,5 @@ a:visited {
 .small-logo {
   margin-top: -18px;
   padding: 0 5px 0 5px;
-  border-top: 1px solid gray;
+  border: 1px solid gray;
 }
