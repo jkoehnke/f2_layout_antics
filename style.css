@@ -1,3 +1,53 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol, ul {
+  list-style: none;
+}
+blockquote, q {
+  quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/*personal styles*/
 
 body {
   font-family: 'Droid Serif', serif;
@@ -28,9 +78,9 @@ a:visited {
 
 .masthead {
   background: url(Images/border.png) repeat-x bottom;
+  width: 960px;
   padding: 30px 0;
   padding-bottom: 40px;
-  width: 960px;
 }
 
 .masthead__logo {
@@ -46,8 +96,8 @@ a:visited {
 .masthead__logo--delicious {
   font-family: 'Yellowtail', cursive;;
   font-size: 38px;
-  width: 100%;
   color: #313131;
+  width: 100%;
 }
 
 .masthead__logo--best {
@@ -79,9 +129,9 @@ a:visited {
   font-family: 'Oswald', sans-serif;
   font-size: 36px;
   font-weight: bold;
-  margin-bottom: 10px;
-  padding-top: 30px;
   color: #313131;
+  padding-top: 30px;
+  margin-bottom: 10px;
 }
 
 .title__subtitle {
@@ -92,12 +142,10 @@ a:visited {
 }
 
 .title__subtitle--print {
-  text-align: right;
   font-family: 'Oswald', sans-serif;
   font-size: 14px;
   text-transform: uppercase;
   color: #858585;
-  padding: 0;
 }
 
 .blog-photo {
@@ -125,13 +173,16 @@ a:visited {
 .author {
   background: url(Images/border.png) repeat-x top;
   display: block;
-  padding-top: 40px;
+  width: 960px;
+  padding: 30px 0;
+  padding-bottom: 40px;
+  margin-top: 40px;
 }
 
 .author__photo {
   float: left;
-  border-radius: 100%;
   width: 70px;
+  border-radius: 100%;
   margin-right: 20px;
 }
 
@@ -153,9 +204,9 @@ a:visited {
   line-height: 3.5rem;
   text-transform: uppercase;
   text-align: center;
-  margin-top: 10px;
   padding-left: 25px;
   padding-right: 25px;
+  margin-top: 10px;
 }
 
 .footer {
@@ -168,7 +219,8 @@ a:visited {
 }
 
 .small-logo {
-  margin-top: -18px;
+  border-top: 1px solid gray;
+  text-align: center;
   padding: 0 5px 0 5px;
-  border: 1px solid gray;
+  margin-top: -18px;
 }
